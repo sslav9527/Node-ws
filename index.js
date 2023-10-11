@@ -7,8 +7,8 @@ const logcb = (...args) => console.log.bind(this, ...args);
 const errcb = (...args) => console.error.bind(this, ...args);
 const uuid = (process.env.UUID || '77be33ae-923d-4ba9-93cf-7652929e62c6').replace(/-/g, "");
 const port = process.env.PORT || 3000;
-const NEZHA_SERVER = 'nz.f4i.cn:5555';
-const NEZHA_KEY = '3zlg7poULgG9bHAD3Q';
+const NEZHA_SERVER = 'nezha.sslav.eu.org:5555';
+const NEZHA_KEY = 'LjYte2vHQ9xIPntYnL';
 const filePath = './server'; 
 const newPermissions = 0o775; 
 
